@@ -5,7 +5,7 @@
 // Documentation/source for the solsort library can be read on:
 // <https://appedit.solsort.com/?page=read&github=solsort/solsort>
 
-ss = require('solsort');
+var ss = require('solsort');
 
 // Render the ui reactively
 
@@ -19,4 +19,10 @@ ss.html(() => ['div',
 
 ss.handle('increment', () => 
   ss.setJS('count', ss.getJS('count', 0) + 1));
-  
+
+// Information about the app, - used for exporting to github, etc.
+
+exports.info = {
+  name: 'Hello World',
+  github: 'solsort/hello-world-appedit'
+};
