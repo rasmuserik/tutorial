@@ -13,7 +13,7 @@ ss.html(() => ['div',
   ['h1', 'Hello world'],
   ['p', 'Count: ', ss.getJS('count', 0)],
   ['button', {onClick: ss.event('increment')},
-    'Increment']);
+    'Increment']]);
 
 // Handler for button clicks
 
