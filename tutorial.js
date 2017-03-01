@@ -24,5 +24,5 @@ ss.handle('increment', () =>
 
 exports.info = {
   name: 'Hello World',
-  github: 'solsort/hello-world-appedit'
+  github: 'solsort/tutorial'
 };
